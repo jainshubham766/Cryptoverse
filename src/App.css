@@ -1,10 +1,10 @@
 :root{
-    --text-primary:#000;
-    --bgPrimary:#fff;
-   --bgSecondary: #F9F9F9;
-   --pink: #0071bd;
-   --light-blue: #e6f7ff;
-   --border: #d9d9d9;
+    --text-primary : #000;
+    --bgPrimary : #fff;
+    --bgSecondary : #F9F9F9;
+    --pink : #0071bd;
+    --light-blue : #e6f7ff;
+    --border : #d9d9d9;
 }
 
 * {
@@ -14,7 +14,7 @@
 }
 
 a:hover{
-    color: var(--pink) !important;
+    color : var(--pink) !important;
 }
 
 .app{
@@ -30,11 +30,13 @@ a:hover{
 .main{
     flex: 0.8;
     width: 100%;
-    
 }
-.routes{
+
+.routes
+{
     padding: 20px;
 }
+
 .nav-container{
     position: fixed;
     left: 0;
@@ -51,12 +53,16 @@ a:hover{
     align-items: center;
     width: 100%;
 }
+
 .logo{
-    margin:0 0 0 15px;
+    margin: 0 0 0 15px;
 }
-.logo a{
-   color: white;
+
+.logo a
+{
+    color: white;
 }
+
 .menu-control-container{
     display: none !important;
     position: absolute !important;
@@ -73,6 +79,7 @@ a:hover{
     justify-content: center;
     align-items: center;
 }
+
 
 @media screen and (max-width:1300px){
     .main{
@@ -286,7 +293,6 @@ a:hover{
         margin-top: 20px;
     }
 }
-
 .select-news{
     width: 180px;
 }
